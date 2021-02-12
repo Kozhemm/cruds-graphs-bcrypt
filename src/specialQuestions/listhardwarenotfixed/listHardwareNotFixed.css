@@ -1,0 +1,41 @@
+
+.list_overflow_hardware_notFixed {
+    margin: 0 auto;
+    overflow: hidden;
+    height: 335px;
+    width: 1020px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.list_questions_hardware_notFixed {
+    background: #252525;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-family: "Courier New";
+    overflow-y: auto;
+    max-height: 100%;
+    width: 100%;
+}
+
+.list_questions_hardware_notFixed p {
+    width: 125px;
+    font-size: 17px;
+  /*  white-space: nowrap; !* Запрещаем перенос строк *!
+    overflow: hidden; !* Обрезаем все, что не помещается в область *!
+    text-overflow: ellipsis;*/
+}
+
+.title_hardware_notfixed {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 3px 2px darkslategrey;
+    color: sandybrown;
+}
+
+.hardware_notfixed_flex {
+    display: flex;
+    box-shadow: 1px 1px 1px whitesmoke;
+    justify-content: space-around;
+    text-decoration: underline;
+}

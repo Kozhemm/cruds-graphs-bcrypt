@@ -1,0 +1,58 @@
+.registerApp {
+    margin: 0 auto;
+    width: 285px;
+    box-shadow: 1px 2px 6px black;
+    background:#252525;
+    border-radius: 12px;
+
+}
+
+.registration {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:khaki;
+    font-size: 16px;
+    font-family: "Courier New";
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration input {
+    padding: 3px;
+    height: 20px;
+    outline: none;
+    margin: 5px;
+}
+
+.registration button {
+    font-weight: 520;
+    padding: 6px;
+    margin-top: 2px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.login input {
+    padding: 3px;
+    height: 20px;
+    outline: none;
+    margin: 5px;
+}
+
+.login button {
+    font-weight: 520;
+    padding: 6px;
+    margin: 5px;
+    cursor: pointer;
+    height: 40px;
+
+}
+

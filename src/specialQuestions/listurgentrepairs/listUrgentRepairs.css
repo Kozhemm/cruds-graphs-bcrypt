@@ -1,0 +1,24 @@
+
+.list_overflow_urgentRepairs {
+    margin: 0 auto;
+    overflow: hidden;
+    height: 235px;
+    width: 280px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.list_questions_hardware_params_urgentRepairs {
+    background: #252525;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-family: "Courier New";
+    overflow-y: auto;
+    max-height: 100%;
+    width: 100%;
+}
+
+.list_questions_hardware_params_urgentRepairs ul {
+ list-style: none;
+    border-top: 6px solid wheat;
+    font-family: Meiryo;
+}

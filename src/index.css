@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial;
+    margin: 0px 0px 0px 0px;
+}
+
+.main {
+    background: #252525;
+}
+
+.main__tables {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comp_li {
+    list-style: none;
+    margin: 2px;
+    box-shadow: -1px 1px 2px 8px #111;
+    transition: 0.5s;
+}
+
+.comp_li:hover {
+    transition: 0.5s;
+    box-shadow: -1px 2px 2px 1px whitesmoke;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.components {
+    padding-left: 5px;
+    display: flex;
+}
+
+.hard_queries {
+    display: flex;
+    width: 350px;
+    height: 340px;
+    margin: 5px 0px 0px 0px;
+    flex-direction: column;
+    box-shadow: -1px 1px 2px 8px #111;
+}
+
+.hard_queries button {
+    color: whitesmoke;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 515;
+    font-family: "Courier New";
+    background: #111;
+}
+
+.hard_queries button:hover {
+    cursor: pointer;
+    color: black;
+    background: gray;
+}
+
+
+.list_queries_charts_plots {
+    margin: 25px 0px 0px 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.presentationDiagProc h1 {
+    color:navajowhite;
+    font-weight: 200;
+    font-family: "Courier New";
+    font-size: 25px;
+}

@@ -1,0 +1,15 @@
+.footer {
+    margin-top: 300px;
+    font-family: 'Roboto', sans-serif;
+    background: #252525;
+    box-shadow: 3px 1px 12px #111;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 8px 8px 8px 220px;
+}
+
+.logoFoot {
+    box-shadow: 1px 1px 10px whitesmoke;
+    width: 115px;
+}
